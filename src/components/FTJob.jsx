@@ -1,7 +1,7 @@
 import React from "react";
 
 const FTJob = ({ ftjob }) => {
-	const { img, title, desc, location, salary, com_name, job_loc, job_time } = ftjob;
+	const { img, title, location, salary, com_name, job_loc, job_time } = ftjob;
 
 	return (
 		<div className="border p-10 rounded-lg">
