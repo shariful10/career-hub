@@ -7,7 +7,7 @@ const Header = () => {
 
 	return (
 		<div className="bg-[#7E90FE0D]">
-			<div className="my-container">
+			<div className="my-container flex justify-between items-center">
 				{/* Logo Section */}
 				<Link to="/" className="text-xl md:text-[32px] font-bold tracking-wide text-black">
 					JobHunting
@@ -103,7 +103,7 @@ const Header = () => {
 										</li>
 									</ul>
 									<Link>
-										<button className="btnBlue mt-5">Star Applying</button>
+										<button className="btn-gradient mt-5">Star Applying</button>
 									</Link>
 								</nav>
 							</div>
@@ -111,7 +111,7 @@ const Header = () => {
 					)}
 				</div>
 				<Link className="hidden lg:block">
-					<button className="btnBlue">Star Applying</button>
+					<button className="btn-gradient">Star Applying</button>
 				</Link>
 			</div>
 		</div>
