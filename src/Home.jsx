@@ -1,5 +1,6 @@
 import React from "react";
 import JobCategory from "./components/JobCategory";
+import { Outlet } from "react-router-dom";
 
 const Home = () => {
 	return (
@@ -26,7 +27,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
-			<JobCategory />
+			<Outlet />
 		</>
 	);
 };
