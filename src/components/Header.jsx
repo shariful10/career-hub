@@ -6,7 +6,7 @@ const Header = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	return (
-		<div className="bg-[#7E90FE0D]">
+		<div className="gradient">
 			<div className="my-container flex justify-between items-center">
 				{/* Logo Section */}
 				<Link to="/" className="text-xl md:text-[32px] font-bold tracking-wide text-black">

@@ -8,6 +8,7 @@ import Blog from "./components/Blog";
 import Main from "./components/Layout/Main";
 import Statistics from "./components/Statistics";
 import AppliedJobs from "./components/AppliedJobs";
+import JobCategory from "./components/JobCategory";
 
 const router = createBrowserRouter([
 	{
