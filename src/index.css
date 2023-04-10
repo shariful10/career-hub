@@ -14,12 +14,20 @@
 	@apply px-[20px] md:px-[28px] py-[14px] md:py-[19px] bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-[#FFFFFF] rounded-lg text-[16px] md:text-[20px] font-semibold;
 }
 
+.btn-small {
+	@apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white text-xl font-semibold py-3 px-[18px] rounded-lg
+}
+
 .gradient {
 	@apply bg-gradient-to-r from-[#7E90FE0D] to-[#9873FF0D];
 }
 
 .gradient-two {
 	@apply bg-gradient-to-r from-[#7E90FE1A] to-[#9873FF1A];
+}
+
+.border-gradient {
+	@apply border border-[#7E90FE] border-r-[#9873FF];
 }
 
 .active {

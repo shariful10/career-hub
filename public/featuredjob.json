@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"img": "https://i.ibb.co/Z2Xmyng/google.png",
+		"title": "Technical Database Engineer",
+		"com_name": "Google LLC",
+        "desc": "300 Jobs Available",
+		"job_loc": "Remote",
+		"job_time": "Part Time",
+		"location": "Dhaka, Bangladesh",
+		"salary": "100K - 150K",
+		"job_desc": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+		"job_res": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+		"req": "Bachelor degree to complete any reputational university.",
+		"expr": "2-3 Years in this field."
+	},
+	{
+		"id": 2,
+		"img": "https://i.ibb.co/S0r0Q57/netflix.png",
+		"title": "Senior Product Designer",
+		"com_name": "Netflix",
+        "desc": "100+ Jobs Available",
+		"job_loc": "Onsite",
+		"job_time": "Full Time",
+		"location": "Dhaka, Bangladesh",
+		"salary": "100K - 150K",
+		"job_desc": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+		"job_res": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+		"req": "Bachelor degree to complete any reputational university.",
+		"expr": "2-3 Years in this field."
+	},
+	{
+		"id": 3,
+		"img": "https://i.ibb.co/d4Sm0Hp/tesla.png",
+		"title": "Software Engineer",
+		"com_name": "Tesla",
+        "desc": "150 Jobs Available",
+		"job_loc": "Onsite",
+		"job_time": "Part Time",
+		"location": "Dhaka, Bangladesh",
+		"salary": "100K - 150K",
+		"job_desc": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+		"job_res": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+		"req": "Bachelor degree to complete any reputational university.",
+		"expr": "2-3 Years in this field."
+	},
+	{
+		"id": 4,
+		"img": "https://i.ibb.co/g6z5FFp/airbnd.png",
+		"title": "Motion Graphic Designer",
+		"com_name": "Airbnb LLC",
+        "desc": "224 Jobs Available",
+		"job_loc": "Remote",
+		"job_time": "Full Time",
+		"location": "Dhaka, Bangladesh",
+		"salary": "100K - 150K",
+		"job_desc": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+		"job_res": "Collaborating with cross-functional teams: UI/UX designers often work closely with other teams, including product management, engineering, and marketing, to ensure that the user interface is aligned with business and technical requirements. You will need to be able to effectively communicate your design ideas and gather feedback from other team members.",
+		"req": "Bachelor degree to complete any reputational university.",
+		"expr": "2-3 Years in this field."
+	}
+]
