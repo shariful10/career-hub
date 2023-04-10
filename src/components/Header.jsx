@@ -7,7 +7,7 @@ const Header = () => {
 
 	return (
 		<div className="gradient">
-			<div className="my-container flex justify-between items-center">
+			<div className="my-container lg:py-12 flex justify-between items-center">
 				{/* Logo Section */}
 				<Link to="/" className="text-xl md:text-[32px] font-bold tracking-wide text-black">
 					JobHunting
@@ -52,7 +52,7 @@ const Header = () => {
 					</button>
 					{isMenuOpen && (
 						<div className="absolute top-0 left-0 w-full z-10">
-							<div className="p-5 bg-white border rounded shadow-sm">
+							<div className="p-5 bg-white border rounded shadow-sm py-5">
 								{/* Logo & Button section */}
 								<div className="flex items-center justify-between mb-4">
 									<div>

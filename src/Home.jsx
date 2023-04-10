@@ -5,8 +5,8 @@ const Home = () => {
 	return (
 		<>
 			<div className="gradient">
-				<div className="my-container grid sm:grid-cols-2 gap-12 md:gap-16">
-					<div className="order-2 sm:order-1 mb-5 md:mb-0">
+				<div className="my-container grid sm:grid-cols-2 sm:gap-6 lg:gap-16 mb-[-48px] items-center">
+					<div className="order-2 sm:order-1 my-5 md:mb-0">
 						<h1 className="text-4xl md:text-6xl lg:text-[80px] font-bold">
 							One Step Closer To Your <span className="text-gradient">Dream Job</span>
 						</h1>
@@ -20,7 +20,7 @@ const Home = () => {
 					<div className="order-1 sm:order-2">
 						<img
 							className="w-full"
-							src="../public/assets/all-images/cover.png"
+							src="https://i.ibb.co/r6JkJyy/cover.png"
 							alt=""
 						/>
 					</div>
