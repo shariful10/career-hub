@@ -6,7 +6,7 @@
 	@apply mx-auto px-4 pt-4 md:mt-0 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-12;
 }
 
-.gradient-text {
+.text-gradient {
 	@apply text-transparent bg-clip-text bg-gradient-to-r from-[#7E90FE] to-[#9873FF];
 }
 
