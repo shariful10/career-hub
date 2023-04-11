@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import FTJob from "./FTJob";
 
-const FeaturedJobs = () => {
+const FeaturedJobs = ({ handleAddToCart }) => {
 	const featuredjob = useLoaderData([]);
 	const [showAll, setShowAll] = useState(false);
 
@@ -22,12 +22,16 @@ const FeaturedJobs = () => {
 				</div>
 				<div className="grid md:grid-cols-2 gap-6">
 					{featuredjob.slice(0, showAll ? 6 : 4).map((ftjob) => (
-						<FTJob key={ftjob.id} ftjob={ftjob}></FTJob>
+						<FTJob
+							key={ftjob.id}
+							ftjob={ftjob}></FTJob>
 					))}
 				</div>
 			</div>
 			<div className="text-center">
-				<button onClick={handleShowAll} className="btn-gradient mt-10">See All Jobs</button>
+				<button onClick={handleShowAll} className="btn-gradient mt-10">
+					See All Jobs
+				</button>
 			</div>
 		</div>
 	);

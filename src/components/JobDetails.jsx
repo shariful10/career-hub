@@ -5,7 +5,6 @@ import "./JobDetails.css";
 
 const JobDetails = () => {
 	const dynamic = useParams();
-	console.log(dynamic.id);
 	const [job, setJob] = useState([]);
 
 	useEffect(() => {
@@ -16,7 +15,11 @@ const JobDetails = () => {
 				setJob(jobData);
 			});
 	}, []);
-	console.log(job);
+
+	const handleAddToCart = (job) => {
+		const jobItem = localStorage.setItem('job', JSON.stringify(job));
+		console.log(jobItem);
+	};
 
 	return (
 		<div>
@@ -53,7 +56,9 @@ const JobDetails = () => {
 								<div className="flex mt-4">
 									<img src="https://i.ibb.co/85qpP3Q/job-title.png" alt="" />
 									<p className="text-[16px] md:text-xl text-[#757575] font-semibold">
-										<span className="text-[#474747] font-bold ml-2">Job Title : </span>
+										<span className="text-[#474747] font-bold ml-2">
+											Job Title :{" "}
+										</span>
 										{job.job_title}
 									</p>
 								</div>
@@ -94,7 +99,9 @@ const JobDetails = () => {
 								</div>
 							</div>
 						</div>
-						<button className="btn-apply">Apply Now</button>
+						<button onClick={() => handleAddToCart(job)} className="btn-apply">
+							Apply Now
+						</button>
 					</div>
 				</div>
 			</div>

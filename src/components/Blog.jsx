@@ -3,8 +3,14 @@ import React from "react";
 const Blog = () => {
 	return (
 		<div>
-			<div className="bg-[#7E90FE0D]">
-				<h1 className="text-5xl font-bold text-center pt-5 pb-5 md:pb-16">Blog</h1>
+			<div className="gradient">
+				<div className="bg-img">
+					<div className="my-container">
+						<h1 className="text-5xl font-bold text-center pt-5 pb-[140px]">
+							Blog
+						</h1>
+					</div>
+				</div>
 			</div>
 			<div className="my-[50px] md:my-[130px]">
 				<div className="my-container">
