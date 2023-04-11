@@ -15,7 +15,7 @@
 }
 
 .btn-small {
-	@apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white text-xl font-semibold py-3 px-[18px] rounded-lg
+	@apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white text-xl font-semibold py-3 px-[18px] rounded-lg;
 }
 
 .gradient {
@@ -28,6 +28,10 @@
 
 .border-gradient {
 	@apply border border-[#7E90FE] border-r-[#9873FF];
+}
+
+.btn-apply {
+	@apply bg-gradient-to-r from-[#7E90FE] to-[#9873FF] py-[18px] w-full rounded-[10px] text-white mt-6 text-[18px] md:text-xl font-medium md:font-bold;
 }
 
 .active {

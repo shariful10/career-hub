@@ -29,13 +29,6 @@ const Header = () => {
 					</li>
 					<li>
 						<NavLink
-							to="/job-details"
-							className={({ isActive }) => (isActive ? "active" : "default")}>
-							Job Details
-						</NavLink>
-					</li>
-					<li>
-						<NavLink
 							to="/applied-jobs"
 							className={({ isActive }) => (isActive ? "active" : "default")}>
 							Applied Jobs
@@ -92,13 +85,6 @@ const Header = () => {
 												to="/statistics"
 												className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400">
 												Statistics
-											</Link>
-										</li>
-										<li>
-											<Link
-												to="/job-details"
-												className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400">
-												Job Details
 											</Link>
 										</li>
 										<li>

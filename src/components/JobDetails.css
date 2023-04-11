@@ -1,0 +1,6 @@
+.bg-img {
+	background-image: url("https://i.ibb.co/gPHGzzY/Vector.png");
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: left bottom;
+}
