@@ -73,7 +73,7 @@ const Statistics = () => {
 							<XAxis dataKey="name" />
 							<YAxis dataKey="number" />
 							<Tooltip cursor={{ strokeDasharray: "2 2" }} />
-							<Scatter name="name" data={markData} fill="#8884d8" />
+							<Scatter name="Name" data={markData} fill="#8884d8" />
 						</ScatterChart>
 					</ResponsiveContainer>
 				</div>

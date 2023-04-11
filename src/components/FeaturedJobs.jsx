@@ -11,9 +11,9 @@ const FeaturedJobs = ({ handleAddToCart }) => {
 	};
 
 	return (
-		<div className="my-container mb-[110px]">
+		<div className="my-container mb-[50px] md:mb-[130px]">
 			<div>
-				<div className="mt-[80px] md:mt-[130px] mb-8 text-center">
+				<div className="mt-[50px] md:mt-[130px] mb-8 text-center">
 					<h2 className="text-3xl md:text-5xl font-bold mb-4">Featured Jobs</h2>
 					<p className="text-[16px] text-[#757575] font-medium">
 						Explore thousands of job opportunities with all the information you need.

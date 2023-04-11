@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import JobDetail from "./JobDetail";
 import "./JobDetails.css";
+import { addToDb } from "../utilities/fakedb";
 
 const JobDetails = () => {
 	const dynamic = useParams();
@@ -16,9 +17,9 @@ const JobDetails = () => {
 			});
 	}, []);
 
-	const handleAddToCart = (job) => {
-		const jobItem = localStorage.setItem('job', JSON.stringify(job));
-		console.log(jobItem);
+	const handleAddToCart = (id) => {
+		console.log(id);
+		addToDb(JSON.stringify(id))
 	};
 
 	return (
@@ -99,7 +100,7 @@ const JobDetails = () => {
 								</div>
 							</div>
 						</div>
-						<button onClick={() => handleAddToCart(job)} className="btn-apply">
+						<button onClick={() => handleAddToCart(job.id)} className="btn-apply">
 							Apply Now
 						</button>
 					</div>
