@@ -53,9 +53,7 @@ const JobDetails = () => {
 								<div className="flex mt-4">
 									<img src="https://i.ibb.co/85qpP3Q/job-title.png" alt="" />
 									<p className="text-[16px] md:text-xl text-[#757575] font-semibold">
-										<span className="text-[#474747] font-bold ml-2">
-											Job Title :
-										</span>
+										<span className="text-[#474747] font-bold ml-2">Job Title : </span>
 										{job.job_title}
 									</p>
 								</div>
