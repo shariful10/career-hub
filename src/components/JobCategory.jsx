@@ -8,7 +8,7 @@ const JobCategory = () => {
 
 	return (
 		<div className="my-container">
-			<div className="mt-[130px] mb-8 text-center">
+			<div className="mt-[80px] md:mt-[130px] mb-8 text-center">
 				<h2 className="text-3xl md:text-5xl font-bold mb-4">Job Category List</h2>
 				<p className="text-[16px] text-[#757575] font-medium">
 					Explore thousands of job opportunities with all the information you need. Its
