@@ -29,9 +29,9 @@ const AppliedJobs = () => {
 				</div>
 			</div>
 			<div className="my-[50px] md:my-[130px]">
-				<div className="my-container">
-					<div className="p-5 rounded-lg bg-[#F4F4F4] w-32">
-						<select className="bg-[#F4F4F4] focus:outline-none text-xl font-medium">
+				<div className="my-container relative">
+					<div className="p-5 rounded-lg bg-[#F4F4F4] w-32 absolute right-8">
+						<select className="bg-[#F4F4F4] focus:outline-none text-xl font-medium a">
 							<option
 								className="p-5 text-[#474747] text-[16px] md:text-xl font-medium"
 								value="">
@@ -50,9 +50,9 @@ const AppliedJobs = () => {
 						</select>
 					</div>
 				</div>
-				<div className="">
+				<div className=" mt-[85px]">
 					{jobs.map((j) => (
-						<AppliedJob j={j}></AppliedJob>
+						<AppliedJob key={j.id} j={j}></AppliedJob>
 					))}
 				</div>
 			</div>

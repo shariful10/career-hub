@@ -12,7 +12,9 @@ const AppliedJob = ({ j }) => {
 					alt=""
 				/>
 				<div className="ml-8 flex-grow">
-					<h3 className="text-2xl text-[#474747] text-center md:text-left font-semibold">{title}</h3>
+					<h3 className="text-2xl text-[#474747] text-center md:text-left font-semibold">
+						{title}
+					</h3>
 					<div className="flex gap-3 my-4">
 						<button className="text-gradient border-gradient py-2 px-5 rounded-[4px] text-[16px] font-bold text-center sm:text-left">
 							{job_loc}
