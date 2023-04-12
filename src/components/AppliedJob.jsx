@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const AppliedJob = ({ j }) => {
-	const { img, title, job_loc, job_time, location, salary } = j;
+	const { id, img, title, job_loc, job_time, location, salary } = j;
 
 	return (
 		<div className="my-container">
@@ -38,9 +39,11 @@ const AppliedJob = ({ j }) => {
 						</div>
 					</div>
 				</div>
-				<div className="text-center sm:text-left">
-					<button className="btn-small mt-6">View Details</button>
-				</div>
+				<Link  to={`../ftjob/${id}`}>
+					<div className="text-center sm:text-left">
+						<button className="btn-small mt-6">View Details</button>
+					</div>
+				</Link>
 			</div>
 		</div>
 	);

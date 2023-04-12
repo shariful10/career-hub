@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { getStoredCart } from "../utilities/fakedb";
 import { useLoaderData } from "react-router-dom";
 import AppliedJob from "./AppliedJob";
 
 const AppliedJobs = () => {
 	const jData = useLoaderData();
-	console.log(jData);
+	const [filter, setFilter] = useState("");
 
 	let jobs = [];
 	const savedJob = getStoredCart();
@@ -16,6 +16,12 @@ const AppliedJobs = () => {
 		}
 	}
 	console.log(jobs);
+
+	if (filter === "Remote") {
+		jobs = jobs.filter((job) => job.job_loc === "Remote");
+	} else if (filter === "Onsite") {
+		jobs = jobs.filter((job) => job.job_loc === "Onsite");
+	}
 
 	return (
 		<div>
@@ -31,15 +37,17 @@ const AppliedJobs = () => {
 			<div className="my-[50px] md:my-[130px]">
 				<div className="my-container relative">
 					<div className="p-5 rounded-lg bg-[#F4F4F4] w-32 absolute right-8">
-						<select className="bg-[#F4F4F4] focus:outline-none text-xl font-medium a">
+						<select
+							className="bg-[#F4F4F4] focus:outline-none text-xl font-medium a"
+							onChange={(e) => setFilter(e.target.value)}>
 							<option
 								className="p-5 text-[#474747] text-[16px] md:text-xl font-medium"
-								value="">
+								value="Filter">
 								Filter
 							</option>
 							<option
 								className="p-5 text-[#474747] text-[16px] md:text-xl font-medium"
-								value="">
+								value="Remote">
 								Remote
 							</option>
 							<option

@@ -103,7 +103,7 @@ const Header = () => {
 										</li>
 									</ul>
 									<Link>
-										<button className="btn-gradient mt-5">Star Applying</button>
+										<button className="btn-gradient mt-5">Start Applying</button>
 									</Link>
 								</nav>
 							</div>
@@ -111,7 +111,7 @@ const Header = () => {
 					)}
 				</div>
 				<Link className="hidden lg:block">
-					<button className="btn-gradient">Star Applying</button>
+					<button className="btn-gradient">Start Applying</button>
 				</Link>
 			</div>
 		</div>
