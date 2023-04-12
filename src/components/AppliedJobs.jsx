@@ -15,7 +15,6 @@ const AppliedJobs = () => {
 			jobs.push(foundJob);
 		}
 	}
-	console.log(jobs);
 
 	if (filter === "Remote") {
 		jobs = jobs.filter((job) => job.job_loc === "Remote");
