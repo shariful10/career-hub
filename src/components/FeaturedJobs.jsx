@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import FTJob from "./FTJob";
 
-const FeaturedJobs = ({ handleAddToCart }) => {
+const FeaturedJobs = () => {
 	const featuredjob = useLoaderData([]);
 	const [showAll, setShowAll] = useState(false);
 

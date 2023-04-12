@@ -28,10 +28,33 @@ const AppliedJobs = () => {
 					</div>
 				</div>
 			</div>
-			<input type="checkbox" name="rw" id="yr" />
-			<div className="">
-				{jobs.map((j) => <AppliedJob j={j}></AppliedJob>)}
-				
+			<div className="my-[50px] md:my-[130px]">
+				<div className="my-container">
+					<div className="p-5 rounded-lg bg-[#F4F4F4] w-32">
+						<select className="bg-[#F4F4F4] focus:outline-none text-xl font-medium">
+							<option
+								className="p-5 text-[#474747] text-[16px] md:text-xl font-medium"
+								value="">
+								Filter
+							</option>
+							<option
+								className="p-5 text-[#474747] text-[16px] md:text-xl font-medium"
+								value="">
+								Remote
+							</option>
+							<option
+								className="p-5 text-[#474747] text-[16px] md:text-xl font-medium"
+								value="Onsite">
+								Onsite
+							</option>
+						</select>
+					</div>
+				</div>
+				<div className="">
+					{jobs.map((j) => (
+						<AppliedJob j={j}></AppliedJob>
+					))}
+				</div>
 			</div>
 		</div>
 	);
